@@ -4,7 +4,7 @@ window.onload = function() {
         container.scrollIntoView({
             block: 'end'
         });
-    }, 500);
+    }, 0);// 確保刷新後的畫面
 };
 
 document.addEventListener('DOMContentLoaded', () => {
