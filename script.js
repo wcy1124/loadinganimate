@@ -1,8 +1,10 @@
 window.onload = function() {
-    const container = document.querySelector('.container');
-    container.scrollIntoView({
-        block: 'end'
-    });
+    setTimeout(function() {
+        const container = document.querySelector('.container');
+        container.scrollIntoView({
+            block: 'end'
+        });
+    }, 500);
 };
 
 document.addEventListener('DOMContentLoaded', () => {
